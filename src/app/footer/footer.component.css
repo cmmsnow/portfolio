@@ -1,5 +1,7 @@
 footer {
   font-family: 'Staatliches', cursive;
+  /*font-family: 'Suez One', serif;*/
+  /*font-size: 14px;*/
   position: absolute;
   bottom: 0;
   left: 0;
@@ -17,4 +19,8 @@ a:hover {
   position: relative;
   bottom: 4px;
   transition: .25s ease-out;
+}
+
+p{
+  margin-bottom: 5px;
 }

@@ -5,21 +5,36 @@ header {
 h1 {
   color: black;
   display: inline;
-  font-family: 'Bangers', cursive;
+  /*font-family: 'Bangers', cursive;*/
+  /*font-family: 'Press Start 2P', cursive;*/
+  font-family: 'Bungee Outline', cursive;
   font-size: 60px;
+  /*font-size: 40px;*/
   margin-left: 25px;
   position: relative;
-  bottom: 30px;
+  bottom: 20px;
 }
 
 img {
-  border: solid 8px black;
-  padding: 5px;
+  /*border: solid 8px black;*/
+  /*padding: 5px;*/
 }
 
 img:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  border: solid 8px #bb3c43;
+  /*border: solid 8px #bb3c43;*/
+  border: solid 2px black;
   transform: translateY(-0.25rem);
   transition: .15s ease-out;
 }
+
+/*.box{*/
+/*  display: none;*/
+/*  width: 100%;*/
+/*}*/
+
+/*a:hover + .box,.box:hover{*/
+/*  display: block;*/
+/*  position: relative;*/
+/*  z-index: 100;*/
+/*}*/
