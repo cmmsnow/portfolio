@@ -15,6 +15,6 @@ export const projects = [
     title: 'Cross Stitch Pattern',
     codeUrl: 'https://github.com/cmmsnow/cross-stitch-code',
     description: 'Data structure to hold cross stitch patterns by pixel, with methods to retrieve and change the pixel color data, and estimate thread needed.',
-    imagePath: ''
+    imagePath: '../../assets/cross-stitch.png'
   }
 ];
