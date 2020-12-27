@@ -10,14 +10,28 @@
 
 h2, h3 {
   /*font-family: 'Staatliches', cursive;*/
+  margin-bottom: 0;
 }
 
 p {
   font-size: 14px;
+  margin-top: 5px;
 }
 
 img {
   border-radius: 15px;
   margin: 0 auto;
   max-width: 300px;
+}
+
+a {
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bb3c43;
+  position: relative;
+  bottom: 4px;
+  transition: .25s ease-out;
 }
