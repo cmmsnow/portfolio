@@ -1,0 +1,23 @@
+.body {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 140px;
+  bottom: 63px;
+  overflow-y: auto;
+}
+
+h2, h3 {
+  /*font-family: 'Staatliches', cursive;*/
+}
+
+p {
+  font-size: 14px;
+}
+
+img {
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 300px;
+}

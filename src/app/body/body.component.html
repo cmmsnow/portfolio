@@ -1,0 +1,16 @@
+<div class="body">
+  <div *ngFor = "let project of projects">
+    <div>
+      <h3>
+        {{project.title}}
+      </h3>
+      <img alt="Weather Web App" src="{{project.imagePath}}">
+      <p *ngIf="project.description">
+        {{project.description}}
+      </p>
+      <p>
+        {{project.codeUrl}}
+      </p>
+    </div>
+  </div>
+</div>

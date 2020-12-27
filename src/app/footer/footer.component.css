@@ -1,7 +1,13 @@
 footer {
-  font-family: 'Staatliches', cursive;
+  border: solid 7px black;
+  border-radius: 20px;
+  /*font-family: 'Staatliches', cursive;*/
+  font-family: 'Poppins', sans-serif;
   /*font-family: 'Suez One', serif;*/
-  /*font-size: 14px;*/
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 35%;
+  padding-bottom: 3px;
   position: absolute;
   bottom: 0;
   left: 0;
