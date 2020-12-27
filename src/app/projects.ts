@@ -9,7 +9,7 @@ export const projects = [
     title: 'Casino',
     codeUrl: 'https://github.com/cmmsnow/casino',
     description: 'Java application that simulates a casino environment with 2 card and 2 dice games. Utilizes interfaces, enums, and demonstrates use of wrapper classes.',
-    imagePath: '../../assets/weather-web-app.png'
+    imagePath: '../../assets/casino.png'
   },
   {
     title: 'Cross Stitch Pattern',
