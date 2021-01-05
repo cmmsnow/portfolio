@@ -14,7 +14,7 @@
   position: absolute;
   top: 140px;
   left: 0;
-  bottom: 68px;
+  bottom: 55px;
   padding-left: 15px;
   max-width: 15%;
   overflow-y: auto;
@@ -28,6 +28,12 @@
   color: #540563;
   margin: 0;
   padding: 0;
+}
+
+.left-side-bar .technologies {
+  font-size: 11px;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .left-side-bar h5:hover {
@@ -45,7 +51,7 @@
   position: absolute;
   top: 140px;
   right: 0;
-  bottom: 68px;
+  bottom: 55px;
   overflow-y: auto;
 }
 
@@ -75,6 +81,21 @@
   transition: .25s ease-out;
 }
 
+.right-side-bar .hosted {
+  font-size: 11px;
+}
+
+.right-side-bar .demonstrates {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.right-side-bar ul {
+  font-size: 14px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .center {
   order: 2;
   flex-shrink: 3;
@@ -82,7 +103,7 @@
   right: 40%;
   left: 18%;
   top: 140px;
-  bottom: 58px;
+  bottom: 55px;
   overflow-y: auto;
 }
 
