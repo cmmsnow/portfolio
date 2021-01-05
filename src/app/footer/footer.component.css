@@ -4,8 +4,8 @@ footer {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 600;
-  margin: 10px 35%;
-  padding-bottom: 3px;
+  margin: 5px 35%;
+  padding-bottom: 0px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -26,5 +26,6 @@ a:hover {
 }
 
 p{
-  margin-bottom: 0;
+  margin-bottom: 3px;
+  margin-top: 3px;
 }
