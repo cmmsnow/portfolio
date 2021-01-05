@@ -1,9 +1,7 @@
 footer {
   border: solid 7px black;
   border-radius: 20px;
-  /*font-family: 'Staatliches', cursive;*/
   font-family: 'Poppins', sans-serif;
-  /*font-family: 'Suez One', serif;*/
   font-size: 12px;
   font-weight: 600;
   margin: 10px 35%;
@@ -16,7 +14,7 @@ footer {
 }
 
 a {
-  color: black;
+  color: #540563;
   text-decoration: none;
 }
 
@@ -28,5 +26,5 @@ a:hover {
 }
 
 p{
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
