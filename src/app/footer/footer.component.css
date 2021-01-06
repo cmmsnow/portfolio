@@ -1,13 +1,9 @@
 footer {
-  border: solid 7px black;
-  border-radius: 20px;
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 600;
-  margin: 5px 35%;
-  padding-bottom: 0px;
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   left: 0;
   right: 0;
   text-align: center;
@@ -23,9 +19,4 @@ a:hover {
   position: relative;
   bottom: 4px;
   transition: .25s ease-out;
-}
-
-p{
-  margin-bottom: 3px;
-  margin-top: 3px;
 }

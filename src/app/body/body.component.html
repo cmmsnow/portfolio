@@ -1,41 +1,37 @@
-<div class="container-fluid body">
-  <div class="row no-gutters">
+<div class="body">
 
-    <div class="col-3 left-side-bar">
-      <h3>Projects:</h3>
-      <div *ngFor="let project of projects">
-        <div *ngIf="project != selectedProject">
-          <h5 (click)="onSelect(project)">{{project.title}}</h5>
-          <ul class="technologies" *ngIf="project.technologiesUsed">
-            <li *ngFor="let technology of project.technologiesUsed">{{technology}}</li>
-          </ul>
-        </div>
-      </div>
+  <div class="left-side-bar" *ngFor="let project of projects">
+    <div *ngIf="project == selectedProject">
+      <img class="img-fluid main-img" alt="Weather Web App" src="{{project.mainImagePath}}">
     </div>
-
-    <div class="col-4 center" *ngFor="let project of projects">
-      <div *ngIf="project == selectedProject">
-        <img class="img-fluid main-img" alt="Weather Web App" src="{{project.mainImagePath}}">
-      </div>
-    </div>
-
-    <div class="col-5 right-side-bar">
-      <div *ngFor="let project of projects">
-        <div *ngIf="project == selectedProject">
-          <a target="_blank" rel="noopener" href="{{project.codeUrl}}">
-            <h3>{{project.title}}</h3>
-          </a>
-          <p class="hosted" *ngIf="project.hostedUrl">Hosted at <a target="_blank" rel="noopener"
-                                                                   href="{{project.hostedUrl}}">{{project.hostedUrl}}</a>
-          </p>
-          <p>{{project.description}}</p>
-          <p class="demonstrates">Demonstrates skill with:</p>
-          <ul>
-            <li *ngFor="let technology of project.technologiesUsed">{{technology}}</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
   </div>
+
+  <div class="center">
+    <div *ngFor="let project of projects">
+      <div *ngIf="project == selectedProject">
+        <a target="_blank" rel="noopener" href="{{project.codeUrl}}">
+          <h3>{{project.title}}</h3>
+        </a>
+        <p class="hosted" *ngIf="project.hostedUrl">Hosted at <a target="_blank" rel="noopener"
+                                                                 href="{{project.hostedUrl}}">{{project.hostedUrl}}</a>
+        </p>
+        <p>{{project.description}}</p>
+        <p class="demonstrates">Demonstrates skill with:</p>
+        <ul>
+          <li *ngFor="let technology of project.technologiesUsed">{{technology}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-side-bar">
+    <h3>Projects:</h3>
+    <div *ngFor="let project of projects">
+      <h5 (click)="onSelect(project)"><span [class.selected]="project === selectedProject">{{project.title}}</span></h5>
+      <!--      <ul class="technologies" *ngIf="project.technologiesUsed">-->
+      <!--        <li *ngFor="let technology of project.technologiesUsed">{{technology}}</li>-->
+      <!--      </ul>-->
+    </div>
+  </div>
+
 </div>

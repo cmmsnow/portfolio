@@ -24,11 +24,11 @@ export const projects: Project[] = [
   {
     projectId: 3,
     codeUrl: 'https://github.com/cmmsnow/cross-stitch-code',
-    title: 'Cross Stitch Pattern',
+    title: 'Cross Stitch Program',
     description: 'Data structure to hold cross stitch patterns by pixel, with methods to retrieve and change the pixel color data, and estimate thread needed.',
     hostedUrl: '',
     mainImagePath: '../../assets/cross-stitch.png',
-    technologiesUsed: [''],
+    technologiesUsed: ['Java class structuring, data manipulation, enums'],
     urlImagesForTechnologies: ['']
   },
   {
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     description: 'Angular front end application for Spring Boot back end, with the video database stored on AWS S3. Created by a team of 5, this video website mimics YouTube. Users can register and log in, upload videos, change their account information, view all videos, view videos by a specific user, edit or delete their own videos, post, view and delete comments.',
     hostedUrl: '',
     mainImagePath: '../../assets/VideoAppFront.png',
-    technologiesUsed: ['Angular', 'Typescript', 'HTML', 'CSS', 'Bootstrap', 'JWT', 'CRUD', 'works with Spring Boot backend', 'connects to AWS S3 cloud storage'],
+    technologiesUsed: ['Angular', 'Typescript', 'HTML', 'CSS', 'Bootstrap', 'JWT', 'CRUD', 'connection to Spring Boot backend', 'use of AWS S3 cloud storage'],
     urlImagesForTechnologies: ['']
   }
 ];
