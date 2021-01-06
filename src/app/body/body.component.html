@@ -32,6 +32,10 @@
       <!--        <li *ngFor="let technology of project.technologiesUsed">{{technology}}</li>-->
       <!--      </ul>-->
     </div>
+    <h3>Skills:</h3>
+    <div *ngFor="let project of projects">
+      <h5 *ngFor="let technology of project.technologiesUsed">{{technology}}</h5>
+    </div>
   </div>
 
 </div>
