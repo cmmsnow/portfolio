@@ -2,7 +2,9 @@
 
   <div class="left-side-bar" *ngFor="let project of projects">
     <div *ngIf="project == selectedProject">
-      <img class="img-fluid main-img" alt="Weather Web App" src="{{project.mainImagePath}}">
+      <div *ngFor="let image of project.mainImagePath">
+        <img class="img-fluid main-img" alt="Weather Web App" src="{{image}}">
+      </div>
     </div>
   </div>
 
@@ -32,7 +34,7 @@
         </h5>
       </div>
     </div>
-<!--    <app-technology></app-technology>-->
+    <!--    <app-technology></app-technology>-->
   </div>
 
 </div>
