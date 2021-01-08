@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Projects } from '@angular/cli/lib/config/schema';
-import {Project} from '../project';
 import {Technology} from '../technology';
 import {projects} from '../projects';
+import {Project} from '../project';
 
 @Component({
   selector: 'app-technology',
@@ -10,18 +9,25 @@ import {projects} from '../projects';
   styleUrls: ['./technology.component.css']
 })
 export class TechnologyComponent {
-  // @ts-ignore
-  allProjects = Projects;
-  selectedTech!: Technology;
-  techName!: string;
+  allProjects = projects;
   techNamesSet!: Set<string>;
-  projectsWithTech!: string[];
-  technologyMap!: Map<string, string[]>;
+  techNamesArray!: string[];
+  selectedTech!: Technology;
+  // techName!: string;
+  // projectsWithTech!: string[];
+  // technologyMap!: Map<string, string[]>;
 
-  constructor() { }
+  constructor() {
+    this.loadTechMap();
+    this.techNamesArray = Array.from(this.techNamesSet.values());
+  }
 
   loadTechMap(): void {
-    // this.allProjects.forEach(project {string[]} => project.technologiesUsed);
-    // this.allProjects.forEach()
+    this.allProjects.forEach(project => project.technologiesUsed.forEach(tech => this.techNamesSet.add(tech)));
   }
+
+  public onSelect(tech: Technology ): void {
+    this.selectedTech = tech;
+  }
+
 }
