@@ -25,16 +25,18 @@
   </div>
 
   <div class="right-side-bar">
-    <h3>Projects:</h3>
-    <div *ngFor="let project of projects">
-      <h5 (click)="onSelect(project)"><span [class.selected]="project === selectedProject">{{project.title}}</span></h5>
-      <!--      <ul class="technologies" *ngIf="project.technologiesUsed">-->
-      <!--        <li *ngFor="let technology of project.technologiesUsed">{{technology}}</li>-->
-      <!--      </ul>-->
+    <div class="upper-right-side-bar">
+      <h3>Projects:</h3>
+      <div *ngFor="let project of projects">
+        <h5 (click)="onSelect(project)"><span [class.selected]="project === selectedProject">{{project.title}}</span>
+        </h5>
+      </div>
     </div>
-    <h3>Skills:</h3>
-    <div *ngFor="let project of projects">
-      <h5 *ngFor="let technology of project.technologiesUsed">{{technology}}</h5>
+    <div class="lower-right-side-bar">
+      <h3>Skills:</h3>
+      <div *ngFor="let project of projects">
+        <h5 *ngFor="let technology of project.technologiesUsed">{{technology}}</h5>
+      </div>
     </div>
   </div>
 

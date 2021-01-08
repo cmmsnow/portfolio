@@ -82,13 +82,35 @@
 
 .right-side-bar {
   order: 3;
-  position: absolute;
+  /*position: fixed;*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*bottom: 20px;*/
+  /*max-width: 15%;*/
+  /*padding-left: 10px;*/
+  /*padding-right: 10px;*/
+  /*overflow-y: auto;*/
+}
+
+.upper-right-side-bar {
+  position: fixed;
   top: 0;
   right: 0;
-  bottom: 10px;
+  bottom: 48%;
+  max-width: 15%;
   padding-left: 10px;
-  padding-right: 15px;
-  max-width: 20%;
+  padding-right: 10px;
+  overflow-y: auto;
+}
+
+.lower-right-side-bar {
+  position: fixed;
+  top: 51%;
+  right: 0;
+  bottom: 20px;
+  max-width: 15%;
+  padding-left: 10px;
+  padding-right: 10px;
   overflow-y: auto;
 }
 
@@ -100,12 +122,6 @@
   color: black;
   margin: 9px;
   padding: 0;
-}
-
-.right-side-bar .technologies {
-  font-size: 11px;
-  margin-top: 0;
-  padding-top: 0;
 }
 
 .right-side-bar h5:hover {

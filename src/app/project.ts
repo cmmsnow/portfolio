@@ -4,7 +4,7 @@ export interface Project {
   title: string;
   description: string;
   hostedUrl: string;
-  mainImagePath: any;
+  mainImagePath: string;
   technologiesUsed: string[];
   urlImagesForTechnologies: string[];
 }
