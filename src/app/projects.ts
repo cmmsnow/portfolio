@@ -2,7 +2,7 @@ import {Project} from './project';
 
 export const projects: Project[] = [
   {
-    projectId: 5,
+    projectId: 1,
     codeUrl: 'https://github.com/cmmsnow/weather-app',
     title: 'Weather Web App',
     description: 'This project calls an API to get real-time weather based on the user’s current location or based on a city input by the user in the search feature.',
@@ -12,7 +12,7 @@ export const projects: Project[] = [
     urlImagesForTechnologies: ['']
   },
   {
-    projectId: 4,
+    projectId: 2,
     codeUrl: 'https://github.com/cmmsnow/you-are-ell',
     title: 'You Are Ell',
     description: 'Written in Java and utilizing JSON, this lab project uses the Zip Code student API to both access and create new users and messages on the student server. The user can also edit old user information created by different Zip Code students and alum.',
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     urlImagesForTechnologies: ['']
   },
   {
-    projectId: 2,
+    projectId: 4,
     codeUrl: 'https://github.com/cmmsnow/cross-stitch-code',
     title: 'Cross Stitch Program',
     description: 'Data structure to hold cross stitch patterns by pixel, with methods to retrieve and change the pixel color data, and estimate thread needed. This is a work in progress. My goal is to create a program that accepts image input and creates a cross stitch pattern from it. My next step is connecting to my database of ~470 thread colors with Spring Boot.',
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     urlImagesForTechnologies: ['']
   },
   {
-    projectId: 1,
+    projectId: 5,
     codeUrl: 'https://github.com/cmmsnow/ziptube-front-end',
     title: 'ZipTube App',
     description: 'Created by a team of 5, this video app mimics features of websites like YouTube or Vimeo. It has an Angular front end and Spring Boot back end, with the video database stored on AWS S3.  Involved in pair programming the back end User and Comments MVC classes, and responsible for setting up the front end Angular structure. Personally responsible for many of the main structural components in Angular including Videos, MyVideos, and the Footer. Pair coded many of the other front end components with group members.',

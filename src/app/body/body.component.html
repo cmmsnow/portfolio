@@ -29,8 +29,8 @@
   <div class="right-side-bar">
     <div class="upper-right-side-bar">
       <h3>Projects:</h3>
-      <div *ngFor="let project of projects">
-        <h5 (click)="onSelect(project)"><span [class.selected]="project === selectedProject">{{project.title}}</span>
+      <div *ngFor="let reversedProj of reversedProjects">
+        <h5 (click)="onSelect(reversedProj)"><span [class.selected]="reversedProj === selectedProject">{{reversedProj.title}}</span>
         </h5>
       </div>
     </div>

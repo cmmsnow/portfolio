@@ -11,12 +11,14 @@ import { Project } from '../project';
 export class BodyComponent implements OnInit {
   projects = projects;
   selectedProject!: Project;
+  reversedProjects!: Project[];
 
   constructor() {
   }
 
   ngOnInit(): void {
     this.onSelect(this.projects[this.projects.length - 1]);
+    this.reversedProjects = projects.reverse();
   }
 
   public onSelect(project: Project ): void {
