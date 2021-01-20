@@ -1,39 +1,39 @@
 .body{
-  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: stretch;
   align-content: stretch;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .left-side-bar {
-  order: 2;
+  order: 1;
   flex-shrink: 3;
-  position: absolute;
-  left: 0;
+  position: fixed;
   top: 80px;
+  left: 0;
   bottom: 25px;
-  width: 42%;
+  width: 41%;
   padding-left: 15px;
+  /*height: calc(100% - 80px - 25px);*/
   overflow-y: auto;
 }
 
 .main-img {
-  border-radius: 15px;
-  max-width: 90%;
+  border-radius: 10px;
+  max-width: 95%;
   max-height: 500px;
   margin-top: 20px;
 }
 
 .center {
-  order: 3;
+  order: 2;
   max-width: 35%;
   padding-left: 15px;
   padding-right: 15px;
-  position: absolute;
+  position: fixed;
   top: 80px;
   left: 42%;
   bottom: 25px;
@@ -86,7 +86,6 @@
   /*position: fixed;*/
   /*top: 0;*/
   /*right: 0;*/
-  /*bottom: 20px;*/
   /*max-width: 15%;*/
   /*padding-left: 10px;*/
   /*padding-right: 10px;*/
@@ -98,7 +97,6 @@
   top: 0;
   right: 0;
   /*bottom: 48%;*/
-  bottom: 20px;
   max-width: 20%;
   padding-left: 10px;
   padding-right: 10px;
@@ -109,7 +107,6 @@
 /*  position: fixed;*/
 /*  top: 51%;*/
 /*  right: 0;*/
-/*  bottom: 20px;*/
 /*  max-width: 15%;*/
 /*  padding-left: 10px;*/
 /*  padding-right: 10px;*/
