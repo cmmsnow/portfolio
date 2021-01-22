@@ -47,7 +47,7 @@ export const projects: Project[] = [
     title: 'ZipTube App',
     description: 'Created by a team of 5, this video app mimics features of websites like YouTube or Vimeo. It has an Angular front end and Spring Boot back end, with the video database stored on AWS S3.  Involved in pair programming the back end User and Comments MVC classes, and responsible for setting up the front end Angular structure. Personally responsible for many of the main structural components in Angular including Videos, MyVideos, and the Footer. Pair coded many of the other front end components with group members.',
     hostedUrl: 'https://ziptubelibrary.herokuapp.com/',
-    mainImagePath: ['assets/ziptube1.png', 'assets/ziptube2.png', 'assets/ziptube3.png', 'assets/ziptube4.png', 'assets/ziptube5.png', 'assets/ziptube6.png'],
+    mainImagePath: ['assets/ziptube01.png', 'assets/ziptube02.png', 'assets/ziptube03.png', 'assets/ziptube04.png', 'assets/ziptube05.png', 'assets/ziptube06.png'],
     technologiesUsed: ['Angular', 'Typescript', 'HTML', 'CSS', 'Bootstrap', 'JWT', 'CRUD', 'Spring Boot', 'AWS S3 cloud storage'],
     urlImagesForTechnologies: ['']
   }
