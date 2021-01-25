@@ -42,7 +42,7 @@ export const projects: Project[] = [
     description: '(In progess.) Data structure that holds cross stitch patterns by color per pixel, with methods to retrieve and change the pixel color data, and estimate thread needed. My goal is to create a program that accepts image input and creates a cross stitch pattern from it. Next steps are connecting to my database of ~470 DMC thread colors with Spring Boot, and deploying this database from AWS.',
     hostedUrl: '',
     mainImagePath: ['assets/cross-stitch.png'],
-    technologiesUsed: ['Java class structuring, data manipulation, enums'],
+    technologiesUsed: ['Java class structuring, data manipulation, enums', 'Spring Boot', 'SQL'],
     urlImagesForTechnologies: ['']
   },
   {
