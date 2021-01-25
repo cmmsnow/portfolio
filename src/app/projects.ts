@@ -31,7 +31,7 @@ export const projects: Project[] = [
     description: 'Worked in a team of five to develop a Java application that simulates a casino environment with 2 card and 2 dice games. Responsible for co-writing the three main utility classes with another team member, and debugging games. Personally wrote the Dice class and all test cases for Utilities, Players, and Game Supplies.',
     hostedUrl: '',
     mainImagePath: ['assets/casino.png'],
-    technologiesUsed: ['Java interfaces, enums, wrapper classes', 'Game logic', 'Testing'],
+    technologiesUsed: ['Interfaces', 'Enums', 'Wrapper classes', 'Game logic', 'JUnit testing'],
     urlImagesForTechnologies: ['']
   },
   {
