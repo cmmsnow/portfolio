@@ -39,10 +39,10 @@ export const projects: Project[] = [
     codeUrl: 'https://github.com/cmmsnow/cross-stitch-code',
     additionalCodeUrl: 'https://github.com/cmmsnow/dmc-threads',
     title: 'Cross Stitch Program',
-    description: 'In progess. Data structure that holds cross stitch patterns by color per pixel, with methods to retrieve and change the pixel color data, and estimate thread needed. My goal is to create a program that accepts image input and creates a cross stitch pattern from it. Currently using Spring Boot to interact with my database of ~470 DMC thread colors. Next step is to deploy this database with AWS RDS.',
+    description: 'In progess. Data structure that holds cross stitch patterns by color per pixel, with methods to retrieve and change the pixel color data, and estimate thread needed. My goal is to create a program that accepts image input and creates a cross stitch pattern from it. Currently using Spring Boot to interact with my database of ~470 DMC thread colors. Next step is to deploy this database with AWS RDS, and continue developing the Angular front end.',
     hostedUrl: '',
     mainImagePath: ['assets/cross-stitch.png'],
-    technologiesUsed: ['Java class structuring, data manipulation, enums', 'Spring Boot', 'SQL'],
+    technologiesUsed: ['Java class structuring, data manipulation, enums', 'Spring Boot', 'Angular', 'SQL database creation and manipulation'],
     urlImagesForTechnologies: ['']
   },
   {
