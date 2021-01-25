@@ -14,6 +14,10 @@
         <a target="_blank" rel="noopener" href="{{project.codeUrl}}">
           <h3>{{project.title}}</h3>
         </a>
+
+        <p class="hosted" *ngIf="project.additionalCodeUrl">Additional repo at <a target="_blank" rel="noopener"
+                                                                 href="{{project.additionalCodeUrl}}">{{project.additionalCodeUrl}}</a>
+
         <p class="hosted" *ngIf="project.hostedUrl">Hosted at <a target="_blank" rel="noopener"
                                                                  href="{{project.hostedUrl}}">{{project.hostedUrl}}</a>
         </p>

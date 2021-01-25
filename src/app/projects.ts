@@ -4,6 +4,7 @@ export const projects: Project[] = [
   {
     projectId: 1,
     codeUrl: 'https://github.com/cmmsnow/weather-app',
+    additionalCodeUrl: '',
     title: 'Weather Web App',
     description: 'This project calls an API to get real-time weather based on the user’s current location or based on a city input by the user in the search feature.',
     hostedUrl: 'https://unruffled-gates-5c87f2.netlify.app/',
@@ -14,6 +15,7 @@ export const projects: Project[] = [
   {
     projectId: 2,
     codeUrl: 'https://github.com/cmmsnow/you-are-ell',
+    additionalCodeUrl: '',
     title: 'You Are Ell',
     description: 'Written in Java and utilizing JSON, this lab project uses the Zip Code student API to both access and create new users and messages on the student server. The user can also edit old user information created by different Zip Code students and alum.',
     hostedUrl: '',
@@ -24,6 +26,7 @@ export const projects: Project[] = [
   {
     projectId: 3,
     codeUrl: 'https://github.com/cmmsnow/casino',
+    additionalCodeUrl: '',
     title: 'Casino',
     description: 'Worked in a team of five to develop a Java application that simulates a casino environment with 2 card and 2 dice games. Responsible for co-writing the three main utility classes with another team member, and debugging games. Personally wrote the Dice class and all test cases for Utilities, Players, and Game Supplies.',
     hostedUrl: '',
@@ -34,6 +37,7 @@ export const projects: Project[] = [
   {
     projectId: 4,
     codeUrl: 'https://github.com/cmmsnow/cross-stitch-code',
+    additionalCodeUrl: 'https://github.com/cmmsnow/dmc-threads',
     title: 'Cross Stitch Program',
     description: '(In progess.) Data structure that holds cross stitch patterns by color per pixel, with methods to retrieve and change the pixel color data, and estimate thread needed. My goal is to create a program that accepts image input and creates a cross stitch pattern from it. Next steps are connecting to my database of ~470 DMC thread colors with Spring Boot, and deploying this database from AWS.',
     hostedUrl: '',
@@ -44,6 +48,7 @@ export const projects: Project[] = [
   {
     projectId: 5,
     codeUrl: 'https://github.com/cmmsnow/ziptube-front-end',
+    additionalCodeUrl: '',
     title: 'ZipTube App',
     description: 'Created by a team of 5, this video app mimics features of websites like YouTube or Vimeo. It has an Angular front end and Spring Boot back end, with the video database stored on AWS S3.  Involved in pair programming the back end User and Comments MVC classes, and responsible for setting up the front end Angular structure. Personally responsible for many of the main structural components in Angular including Videos, MyVideos, and the Footer. Pair coded many of the other front end components with group members.',
     hostedUrl: 'https://ziptubelibrary.herokuapp.com/',
