@@ -14,7 +14,8 @@
   border-radius: 10px;
   max-width: 95%;
   max-height: 500px;
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto 0;
 }
 
 .center {
