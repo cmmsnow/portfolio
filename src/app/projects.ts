@@ -41,7 +41,7 @@ export const projects: Project[] = [
     title: 'Cross Stitch Program',
     description: 'In development: program that accepts image input and creates a cross stitch pattern from it. Currently a data structure that holds cross stitch patterns by color per pixel, with methods to retrieve and change the pixel color data, and estimate thread needed. Currently using Spring Boot to interact with my database of ~470 DMC thread colors. Next steps are to deploy this database with AWS RDS, and continue developing the Angular front end.',
     hostedUrl: '',
-    mainImagePath: ['assets/cross-stitch.png'],
+    mainImagePath: ['assets/cross-stitch.png', 'assets/dmc-threads1.png', 'assets/dmc-threads2.png', 'assets/dmc-threads3.png'],
     technologiesUsed: ['Java class structuring, data manipulation, enums', 'Spring Boot', 'Angular', 'SQL database creation and manipulation'],
     urlImagesForTechnologies: ['']
   },
